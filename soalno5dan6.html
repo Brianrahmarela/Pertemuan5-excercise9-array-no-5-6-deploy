@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="soalno5.css" />
+		<link rel="stylesheet" href="soalno6.css" />
+
+		<style></style>
+	</head>
+	<body>
+		<div id="flex-container">
+			<div class="flex-item">
+				<div class="content">
+					<h3 class="tweet">Create Tweet<br /></h3>
+					<textarea
+						rows="10"
+						cols="40"
+						placeholder="Tweet"
+						id="textarea"
+					></textarea>
+					<p>
+						<!-- <input
+							type="submit"
+							value="Submit"
+							id="buttonsubmit"
+							onclick="displayTweet();"
+						/> -->
+						<button type="submit" id="buttonsubmit" onclick="displayTweet();">
+							Submit
+						</button>
+					</p>
+				</div>
+			</div>
+			<div class="vl"></div>
+			<div class="flex-item">
+				<div class="content">
+					<h3>Your Tweet<br /></h3>
+					<p id="yourtweet">Disini adalah tempat Tweet hasil submit anda</p>
+				</div>
+			</div>
+		</div>
+		<div id="flex-containers">
+			<div class="flex-container-registration">
+				<h3>Registration</h3>
+			</div>
+			<div class="flex-container-item">
+				<input type="text" name="nama" placeholder="Username" id="nama" />
+			</div>
+			<div class="flex-container-item">
+				<input type="text" name="alamat" placeholder="Password" id="password" />
+			</div>
+			<div class="flex-container-item">
+				<button type="submit" onclick="displayForm();">Submit</button>
+			</div>
+		</div>
+		<hr />
+		<div id="flex-containers">
+			<div class="flex-container-registration">
+				<h3>List Registration</h3>
+			</div>
+			<div class="flex-container-item">
+				<p id="hasilnama">Username</p>
+			</div>
+			<div class="flex-container-item">
+				<p id="hasilpass">Password</p>
+			</div>
+		</div>
+		<script src="soalno6.js"></script>
+		<script src="soalno5.js"></script>
+	</body>
+</html>
